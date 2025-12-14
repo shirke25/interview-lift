@@ -54,4 +54,7 @@ The goal of this project is to redesign the InterviewLift landing page with:
 ---
 
 ## 📂 Folder Structure
-
+├── index.html
+├── images/
+│ ├── logo.png
+│ └── hero-banner-img.jpeg
