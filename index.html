@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InterviewLift</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-700 text-white">
+
+  <!-- Navbar -->
+  <nav class="w-full border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      
+    <!-- Logo -->
+<div class="flex items-center gap-2">
+  <img 
+    src="./images/logo.png" 
+    alt="InterviewLift Logo"
+    class="w-10 h-10 object-contain"
+  />
+
+  <span class="text-2xl font-bold text-yellow-400">
+    Interview<span class="text-white">Lift</span>
+  </span>
+</div>
+
+
+      <!-- Desktop Menu -->
+      <ul class="hidden md:flex items-center space-x-8 text-sm font-medium">
+        <li><a href="#features" class="hover:text-yellow-400 transition">Features</a></li>
+        <li><a href="#work" class="hover:text-yellow-400 transition">How It Works</a></li>
+        <li><a href="#price" class="hover:text-yellow-400 transition">Pricing</a></li>
+        <li><a href="#contact" class="hover:text-yellow-400 transition">Contact</a></li>
+      </ul>
+
+      <!-- CTA Button -->
+      <div class="hidden md:block">
+        <a href="#"
+          class="bg-yellow-400 text-black px-5 py-2 rounded-md font-semibold hover:bg-yellow-300 transition">
+          Get Started
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button class="md:hidden text-white focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+          viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+    </div>
+  </nav>
+
+
+ <!-- Hero Section -->
+<section class="bg-black text-white">
+  <div class="max-w-7xl mx-auto px-4 py-24">
+
+    <div class="grid grid-cols-12 gap-12 items-center">
+
+      <!-- Left Content (6/10) -->
+      <div class="col-span-12 md:col-span-7">
+        <span class="inline-block mb-4 text-sm font-semibold text-yellow-400 uppercase tracking-wide">
+          Crack Your Interviews Faster
+        </span>
+
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
+          Prepare Smarter.  
+          <span class="text-yellow-400">Interview Better.</span>  
+          Get Hired.
+        </h1>
+
+        <p class="text-gray-400 text-lg mb-8 max-w-xl">
+          InterviewLift helps you practice real interview questions, get structured guidance,
+          and build confidence with a proven preparation workflow.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="flex flex-wrap gap-4">
+          <a href="#"
+            class="bg-yellow-400 text-black px-6 py-3 rounded-md font-semibold hover:bg-yellow-300 transition">
+            Start Free
+          </a>
+
+          <a href="#"
+            class="border border-gray-700 px-6 py-3 rounded-md font-semibold text-white
+                   hover:border-yellow-400 hover:text-yellow-400 transition">
+            View Features
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Visual (4/10) -->
+      <div class="col-span-12 md:col-span-5 relative">
+        <div class="w-[70%] h-auto">
+            <img src="./images/hero-banner-img.jpeg" alt="Hero Banner Image">
+         </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- Split Call To Action -->
+    <div class="bg-gray-900 border border-gray-800 px-8 py-12
+                flex flex-col md:flex-row items-center justify-between gap-8">
+
+      <!-- Left Content -->
+      <h2 class="text-2xl md:text-3xl font-bold text-white">
+        Ready to take the next step in your career journey with  
+        <span class="text-yellow-400">InterviewLift </span>?
+      </h2>
+
+      <!-- Right Button -->
+      <a href="#"
+        class="bg-yellow-400 text-black px-8 py-4 rounded-md font-semibold text-lg
+               hover:bg-yellow-300 transition whitespace-nowrap">
+        Get in Touch
+      </a>
+
+    </div>
+
+<!-- Features Section -->
+<section id="features" class="bg-black">
+  <div class="max-w-7xl mx-auto px-4 py-20">
+
+    <!-- Section Header -->
+    <div class="text-center mb-14">
+      <h2 class="text-3xl md:text-4xl font-extrabold mb-4">
+        Powerful Features to  
+        <span class="text-yellow-400">Ace Your Interviews</span>
+      </h2>
+      <p class="text-gray-400 max-w-2xl mx-auto text-lg">
+        Everything you need to prepare confidently and perform at your best.
+      </p>
+    </div>
+
+    <!-- Features Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Feature Card 1 -->
+      <div class="bg-gray-900 border border-gray-800 rounded-xl p-8 hover:border-yellow-400 transition">
+        <div class="text-yellow-400 text-3xl mb-4">🎯</div>
+        <h3 class="text-xl font-semibold mb-3">Real Interview Questions</h3>
+        <p class="text-gray-400">
+          Practice curated questions based on real interview experiences from top companies.
+        </p>
+      </div>
+
+      <!-- Feature Card 2 -->
+      <div class="bg-gray-900 border border-gray-800 rounded-xl p-8 hover:border-yellow-400 transition">
+        <div class="text-yellow-400 text-3xl mb-4">📈</div>
+        <h3 class="text-xl font-semibold mb-3">Structured Preparation</h3>
+        <p class="text-gray-400">
+          Follow a step-by-step learning path designed to improve clarity and confidence.
+        </p>
+      </div>
+
+      <!-- Feature Card 3 -->
+      <div class="bg-gray-900 border border-gray-800 rounded-xl p-8 hover:border-yellow-400 transition">
+        <div class="text-yellow-400 text-3xl mb-4">💬</div>
+        <h3 class="text-xl font-semibold mb-3">Mock Interview Practice</h3>
+        <p class="text-gray-400">
+          Simulate real interviews and refine your answers with focused practice sessions.
+        </p>
+      </div>
+
+      <!-- Feature Card 4 -->
+      <div class="bg-gray-900 border border-gray-800 rounded-xl p-8 hover:border-yellow-400 transition">
+        <div class="text-yellow-400 text-3xl mb-4">🧠</div>
+        <h3 class="text-xl font-semibold mb-3">Expert Guidance</h3>
+        <p class="text-gray-400">
+          Learn best practices and frameworks used by experienced interviewers.
+        </p>
+      </div>
+
+      <!-- Feature Card 5 -->
+      <div class="bg-gray-900 border border-gray-800 rounded-xl p-8 hover:border-yellow-400 transition">
+        <div class="text-yellow-400 text-3xl mb-4">⚡</div>
+        <h3 class="text-xl font-semibold mb-3">Quick Feedback</h3>
+        <p class="text-gray-400">
+          Identify gaps and improve faster with instant performance insights.
+        </p>
+      </div>
+
+      <!-- Feature Card 6 -->
+      <div class="bg-gray-900 border border-gray-800 rounded-xl p-8 hover:border-yellow-400 transition">
+        <div class="text-yellow-400 text-3xl mb-4">🔒</div>
+        <h3 class="text-xl font-semibold mb-3">Secure & Reliable</h3>
+        <p class="text-gray-400">
+          Your data is protected with industry-standard security and privacy practices.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- How It Works Section -->
+<section id="work" class="bg-black">
+  <div class="max-w-7xl mx-auto px-4 py-20">
+
+    <!-- Section Header -->
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-extrabold mb-4">
+        How  
+        <span class="text-yellow-400">InterviewLift</span>  
+        Works
+      </h2>
+      <p class="text-gray-400 max-w-2xl mx-auto text-lg">
+        A simple, structured process to help you prepare effectively and confidently.
+      </p>
+    </div>
+
+    <!-- Steps -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+      <!-- Step 1 -->
+      <div class="relative bg-gray-900 border border-gray-800 rounded-xl p-8 text-center">
+        <div class="absolute -top-5 left-1/2 -translate-x-1/2
+                    bg-yellow-400 text-black w-10 h-10 rounded-full
+                    flex items-center justify-center font-bold">
+          1
+        </div>
+        <h3 class="text-xl font-semibold mt-6 mb-3">Sign Up</h3>
+        <p class="text-gray-400">
+          Create your account in minutes and access curated interview preparation resources.
+        </p>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="relative bg-gray-900 border border-gray-800 rounded-xl p-8 text-center">
+        <div class="absolute -top-5 left-1/2 -translate-x-1/2
+                    bg-yellow-400 text-black w-10 h-10 rounded-full
+                    flex items-center justify-center font-bold">
+          2
+        </div>
+        <h3 class="text-xl font-semibold mt-6 mb-3">Practice</h3>
+        <p class="text-gray-400">
+          Work through real interview questions and mock scenarios at your own pace.
+        </p>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="relative bg-gray-900 border border-gray-800 rounded-xl p-8 text-center">
+        <div class="absolute -top-5 left-1/2 -translate-x-1/2
+                    bg-yellow-400 text-black w-10 h-10 rounded-full
+                    flex items-center justify-center font-bold">
+          3
+        </div>
+        <h3 class="text-xl font-semibold mt-6 mb-3">Improve & Succeed</h3>
+        <p class="text-gray-400">
+          Review feedback, refine your answers, and walk into interviews with confidence.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Pricing Section -->
+<section id="price" class="bg-black">
+  <div class="max-w-7xl mx-auto px-4 py-20">
+
+    <!-- Header -->
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-extrabold mb-4">
+        Simple  
+        <span class="text-yellow-400">Pricing</span>
+      </h2>
+      <p class="text-gray-400 max-w-2xl mx-auto text-lg">
+        Choose a plan that fits your interview preparation goals.
+      </p>
+    </div>
+
+    <!-- Pricing Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <!-- Free Plan -->
+      <div class="bg-gray-900 border border-gray-800 rounded-xl p-8 text-center">
+        <h3 class="text-xl font-semibold mb-4">Free</h3>
+        <p class="text-gray-400 mb-6">Get started with basic features</p>
+        <p class="text-4xl font-extrabold mb-6">₹0</p>
+        <ul class="text-gray-400 space-y-3 mb-8">
+          <li>✔ Basic interview questions</li>
+          <li>✔ Limited practice sessions</li>
+          <li>✔ Community access</li>
+        </ul>
+        <a href="#" class="border border-gray-700 px-6 py-3 rounded-md hover:border-yellow-400 hover:text-yellow-400 transition">
+          Get Started
+        </a>
+      </div>
+
+      <!-- Pro Plan (Highlighted) -->
+      <div class="bg-gray-900 border-2 border-yellow-400 rounded-xl p-8 text-center scale-105">
+        <h3 class="text-xl font-semibold mb-4">Pro</h3>
+        <p class="text-gray-400 mb-6">Best for serious preparation</p>
+        <p class="text-4xl font-extrabold mb-6 text-yellow-400">₹999</p>
+        <ul class="text-gray-400 space-y-3 mb-8">
+          <li>✔ All Free features</li>
+          <li>✔ Unlimited practice</li>
+          <li>✔ Mock interviews</li>
+          <li>✔ Priority support</li>
+        </ul>
+        <a href="#" class="bg-yellow-400 text-black px-6 py-3 rounded-md font-semibold hover:bg-yellow-300 transition">
+          Upgrade Now
+        </a>
+      </div>
+
+      <!-- Premium Plan -->
+      <div class="bg-gray-900 border border-gray-800 rounded-xl p-8 text-center">
+        <h3 class="text-xl font-semibold mb-4">Premium</h3>
+        <p class="text-gray-400 mb-6">1-on-1 expert guidance</p>
+        <p class="text-4xl font-extrabold mb-6">₹1999</p>
+        <ul class="text-gray-400 space-y-3 mb-8">
+          <li>✔ All Pro features</li>
+          <li>✔ Personal mentorship</li>
+          <li>✔ Interview feedback</li>
+        </ul>
+        <a href="#" class="border border-gray-700 px-6 py-3 rounded-md hover:border-yellow-400 hover:text-yellow-400 transition">
+          Contact Sales
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-black border-t border-gray-800">
+  <div class="max-w-7xl mx-auto px-4 py-20">
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+      <!-- Text -->
+      <div>
+        <h2 class="text-3xl md:text-4xl font-extrabold mb-4">
+          Get in  
+          <span class="text-yellow-400">Touch</span>
+        </h2>
+        <p class="text-gray-400 text-lg mb-6 max-w-md">
+          Have questions or need personalized guidance? Our team is here to help you succeed.
+        </p>
+        <p class="text-gray-400">
+          Email us at  
+          <span class="text-yellow-400 font-semibold">support@interviewlift.com</span>
+        </p>
+      </div>
+
+      <!-- Form (UI Only) -->
+      <form class="bg-gray-900 border border-gray-800 rounded-xl p-8 space-y-5">
+        <input type="text" placeholder="Your Name"
+          class="w-full bg-black border border-gray-700 rounded-md px-4 py-3 text-white focus:outline-none focus:border-yellow-400" />
+
+        <input type="email" placeholder="Your Email"
+          class="w-full bg-black border border-gray-700 rounded-md px-4 py-3 text-white focus:outline-none focus:border-yellow-400" />
+
+        <textarea rows="4" placeholder="Your Message"
+          class="w-full bg-black border border-gray-700 rounded-md px-4 py-3 text-white focus:outline-none focus:border-yellow-400"></textarea>
+
+        <button type="submit"
+          class="w-full bg-yellow-400 text-black py-3 rounded-md font-semibold hover:bg-yellow-300 transition">
+          Send Message
+        </button>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-black border-t border-gray-800">
+  <div class="max-w-7xl mx-auto px-4 py-10">
+
+    <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+
+      <!-- Brand -->
+      <div class="text-xl font-bold text-yellow-400">
+        Interview<span class="text-white">Lift</span>
+      </div>
+
+      <!-- Links -->
+      <ul class="flex space-x-6 text-sm text-gray-400">
+        <li><a href="#" class="hover:text-yellow-400 transition">Features</a></li>
+        <li><a href="#" class="hover:text-yellow-400 transition">Pricing</a></li>
+        <li><a href="#" class="hover:text-yellow-400 transition">Contact</a></li>
+        <li><a href="#" class="hover:text-yellow-400 transition">Privacy Policy</a></li>
+      </ul>
+
+      <!-- Copyright -->
+      <p class="text-gray-500 text-sm">
+        © 2025 InterviewLift. All rights reserved.
+      </p>
+
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
